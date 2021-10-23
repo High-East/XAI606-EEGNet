@@ -30,13 +30,95 @@ conda install numpy pandas matplotlib pyyaml ipywidgets
 pip install torchinfo
 ```
 
-## 2.Directory Structure
-
-![structure](figures/directory_structure.png)
+## 2.Directory structure
+```
+.
+├── README.md
+├── base
+├── base_trainer.py
+│   └── layers.py
+├── configs
+│   └── EEGNet_config.yaml
+├── data_loader
+│   ├── __pycache__
+│   ├── data_generator.py
+│   └── dataset
+├── figures
+│   ├── dataset.png
+│   └── directory_structure.png
+├── history.ipynb
+├── main.py
+├── models
+│   ├── EEGNet_model.py
+│   └── model_builder.py
+├── runs
+│   ├── evaluation.sh
+│   ├── prediction.sh
+│   └── train.sh
+├── trainers
+│   ├── EEGNet_trainer.py
+│   └── trainer_maker.py
+├── utils
+│   ├── __pycache__
+│   ├── calculator.py
+│   ├── get_args.py
+│   ├── logger.py
+│   └── utils.py
+└── xai606.yaml
+```
 
 ## 3. Dataset
-
-![dataset](figures/dataset.png)
+```
+.
+├── test
+│   ├── S01_X.npy
+│   ├── S02_X.npy
+│   ├── S03_X.npy
+│   ├── S04_X.npy
+│   ├── S05_X.npy
+│   ├── S06_X.npy
+│   ├── S07_X.npy
+│   ├── S08_X.npy
+│   ├── S09_X.npy
+├── train
+│   ├── S01_X.npy
+│   ├── S01_y.npy
+│   ├── S02_X.npy
+│   ├── S02_y.npy
+│   ├── S03_X.npy
+│   ├── S03_y.npy
+│   ├── S04_X.npy
+│   ├── S04_y.npy
+│   ├── S05_X.npy
+│   ├── S05_y.npy
+│   ├── S06_X.npy
+│   ├── S06_y.npy
+│   ├── S07_X.npy
+│   ├── S07_y.npy
+│   ├── S08_X.npy
+│   ├── S08_y.npy
+│   ├── S09_X.npy
+│   └── S09_y.npy
+└── val
+    ├── S01_X.npy
+    ├── S01_y.npy
+    ├── S02_X.npy
+    ├── S02_y.npy
+    ├── S03_X.npy
+    ├── S03_y.npy
+    ├── S04_X.npy
+    ├── S04_y.npy
+    ├── S05_X.npy
+    ├── S05_y.npy
+    ├── S06_X.npy
+    ├── S06_y.npy
+    ├── S07_X.npy
+    ├── S07_y.npy
+    ├── S08_X.npy
+    ├── S08_y.npy
+    ├── S09_X.npy
+    └── S09_y.npy
+```
 **BCI Competition IV-2a dataset**
 - 9 subjects 
 - Classes: left hand, right hand, feet, tongue (4 classes)
@@ -56,7 +138,7 @@ pip install torchinfo
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |EEGNet|76.74|54.51|79.17|54.51|63.19|57.64|83.68|75.00|68.40|68.09|
 
-## 5. Get Started
+## 5. Get started
 **Train**
 ```shell
 sh runs/train.sh
