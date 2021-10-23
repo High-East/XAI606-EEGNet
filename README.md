@@ -19,7 +19,7 @@ This repo contains the non-official implementation of [EEGNet](https://arxiv.org
 (Option 1) Using yaml file
 
 ```shell
-conda env create —-file xai606.yaml
+conda env create --file xai606.yaml
 ```
 
 (Option 2) Install packages manually
