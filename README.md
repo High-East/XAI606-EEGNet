@@ -148,3 +148,11 @@ sh runs/train.sh
 ```shell
 sh runs/prediction.sh
 ```
+
+**Visualiztion**
+- history.ipynb 참고
+
+## 6. Submission
+- ./result/{save_dir}/{sub_dir}/prediction 폴더를 이메일로 제출해주세요.
+- 혹은 S01~S09 각각의 prediction이 담겨있는 폴더를 제출해주세요 (확장자 무관).
+- donghee-ko@korea.ac.kr
