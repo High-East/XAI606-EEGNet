@@ -1,0 +1,7 @@
+/.idea
+.DS_Store
+.git
+
+/data_loader/dataset/bcic4-2a/test/*y.npy
+/data_loader/dataset/bcic4-2a/test_label/
+runs/evaluation.sh
