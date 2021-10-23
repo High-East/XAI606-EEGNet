@@ -66,7 +66,3 @@ sh runs/train.sh
 ```shell
 sh runs/prediction.sh
 ```
-
-XAI606-EEGNet
-
-Project for XAI606(Korea University)
