@@ -39,6 +39,7 @@ def main():
 
     if args.evaluation:
         write_csv(os.path.join(args.base_load_path, "prediction.csv"), args.acc_list)
+        print(f"Mean: {sum(args.acc_list) / 9:0.2f}")
 
 
 if __name__ == '__main__':
