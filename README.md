@@ -30,7 +30,7 @@ conda install numpy pandas matplotlib pyyaml ipywidgets
 pip install torchinfo
 ```
 
-## 2.Directory structure
+## 2. Directory structure
 ```
 .
 ├── README.md
@@ -133,7 +133,7 @@ pip install torchinfo
 - Band-pass filtering: 0-38Hz
 - Normalization: exponential moving average
 
-## 4.Experiments
+## 4. Experiments
 |Models|S01|S02|S03|S04|S05|S06|S07|S08|S09|Mean|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |EEGNet|76.74|54.51|79.17|54.51|63.19|57.64|83.68|75.00|68.40|68.09|
