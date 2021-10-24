@@ -150,7 +150,7 @@ sh runs/prediction.sh
 ```
 
 **Visualiztion**
-- history.ipynb 참고
+- Please note that history.ipynb file
 
 ## 6. Submission
 - ./result/{save_dir}/{sub_dir}/prediction 폴더를 이메일로 제출해주세요.
