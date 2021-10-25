@@ -149,7 +149,7 @@ sh runs/train.sh
 sh runs/prediction.sh
 ```
 
-**Visualiztion**
+**Visualization**
 - Please note that history.ipynb file
 
 ## 6. Submission
